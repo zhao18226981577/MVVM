@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		A25F41561EEE28D7004790B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41551EEE28D7004790B1 /* main.m */; };
 		A25F41591EEE28D7004790B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41581EEE28D7004790B1 /* AppDelegate.m */; };
-		A25F415C1EEE28D7004790B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F415B1EEE28D7004790B1 /* ViewController.m */; };
-		A25F415F1EEE28D7004790B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25F415D1EEE28D7004790B1 /* Main.storyboard */; };
 		A25F41611EEE28D7004790B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25F41601EEE28D7004790B1 /* Assets.xcassets */; };
 		A25F41641EEE28D7004790B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25F41621EEE28D7004790B1 /* LaunchScreen.storyboard */; };
 		A25F416F1EEE28D7004790B1 /* MVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F416E1EEE28D7004790B1 /* MVVMTests.m */; };
 		A25F417A1EEE28D8004790B1 /* MVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41791EEE28D8004790B1 /* MVVMUITests.m */; };
+		A25F41921EEE35E1004790B1 /* StudyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41901EEE35E1004790B1 /* StudyTableViewCell.m */; };
+		A25F41931EEE35E1004790B1 /* StudyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25F41911EEE35E1004790B1 /* StudyTableViewCell.xib */; };
+		A25F41961EEE3604004790B1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41951EEE3604004790B1 /* BaseViewController.m */; };
+		A25F41991EEE361D004790B1 /* StudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41981EEE361D004790B1 /* StudyViewController.m */; };
+		A25F419E1EEE37C9004790B1 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F419D1EEE37C9004790B1 /* Tools.m */; };
+		A25F41A41EEE38C0004790B1 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41A31EEE38C0004790B1 /* NetworkRequest.m */; };
+		A25F41A71EEE3ADE004790B1 /* SignTicketAndTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41A61EEE3ADE004790B1 /* SignTicketAndTimer.m */; };
+		A25F41B01EEE3BD9004790B1 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41AA1EEE3BD9004790B1 /* GTMBase64.m */; };
+		A25F41B11EEE3BD9004790B1 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41AD1EEE3BD9004790B1 /* NSData+AES.m */; };
+		A25F41B21EEE3BD9004790B1 /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41AF1EEE3BD9004790B1 /* SecurityUtil.m */; };
+		A25F41B81EEE5C8E004790B1 /* StudyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41B71EEE5C8E004790B1 /* StudyModel.m */; };
+		A25F41BC1EEE5D54004790B1 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41BB1EEE5D54004790B1 /* BaseViewModel.m */; };
+		A25F41BF1EEE5D68004790B1 /* StudyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41BE1EEE5D68004790B1 /* StudyViewModel.m */; };
+		A25F41C21EEE5F48004790B1 /* StudyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F41C11EEE5F48004790B1 /* StudyDetailViewController.m */; };
+		D477B0150CCEAA3CDE544B98 /* Pods_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699A72A0EADC3454DB373196 /* Pods_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C771DA4DEB40E2C5DEF5896 /* Pods-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM/Pods-MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		699A72A0EADC3454DB373196 /* Pods_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25F41511EEE28D7004790B1 /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25F41551EEE28D7004790B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A25F41571EEE28D7004790B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A25F41581EEE28D7004790B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A25F415A1EEE28D7004790B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A25F415B1EEE28D7004790B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A25F415E1EEE28D7004790B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A25F41601EEE28D7004790B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A25F41631EEE28D7004790B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A25F41651EEE28D7004790B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +63,37 @@
 		A25F41751EEE28D8004790B1 /* MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25F41791EEE28D8004790B1 /* MVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMUITests.m; sourceTree = "<group>"; };
 		A25F417B1EEE28D8004790B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25F418F1EEE35E1004790B1 /* StudyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyTableViewCell.h; sourceTree = "<group>"; };
+		A25F41901EEE35E1004790B1 /* StudyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyTableViewCell.m; sourceTree = "<group>"; };
+		A25F41911EEE35E1004790B1 /* StudyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudyTableViewCell.xib; sourceTree = "<group>"; };
+		A25F41941EEE3604004790B1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A25F41951EEE3604004790B1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A25F41971EEE361D004790B1 /* StudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyViewController.h; sourceTree = "<group>"; };
+		A25F41981EEE361D004790B1 /* StudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyViewController.m; sourceTree = "<group>"; };
+		A25F419A1EEE3633004790B1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A25F419B1EEE364F004790B1 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		A25F419C1EEE37C9004790B1 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		A25F419D1EEE37C9004790B1 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		A25F41A21EEE38C0004790B1 /* NetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
+		A25F41A31EEE38C0004790B1 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
+		A25F41A51EEE3ADE004790B1 /* SignTicketAndTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignTicketAndTimer.h; sourceTree = "<group>"; };
+		A25F41A61EEE3ADE004790B1 /* SignTicketAndTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignTicketAndTimer.m; sourceTree = "<group>"; };
+		A25F41A91EEE3BD9004790B1 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		A25F41AA1EEE3BD9004790B1 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		A25F41AB1EEE3BD9004790B1 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		A25F41AC1EEE3BD9004790B1 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		A25F41AD1EEE3BD9004790B1 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		A25F41AE1EEE3BD9004790B1 /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		A25F41AF1EEE3BD9004790B1 /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
+		A25F41B61EEE5C8E004790B1 /* StudyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyModel.h; sourceTree = "<group>"; };
+		A25F41B71EEE5C8E004790B1 /* StudyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyModel.m; sourceTree = "<group>"; };
+		A25F41BA1EEE5D54004790B1 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		A25F41BB1EEE5D54004790B1 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		A25F41BD1EEE5D68004790B1 /* StudyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyViewModel.h; sourceTree = "<group>"; };
+		A25F41BE1EEE5D68004790B1 /* StudyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyViewModel.m; sourceTree = "<group>"; };
+		A25F41C01EEE5F48004790B1 /* StudyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyDetailViewController.h; sourceTree = "<group>"; };
+		A25F41C11EEE5F48004790B1 /* StudyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyDetailViewController.m; sourceTree = "<group>"; };
+		A9CA33F04993791125A47030 /* Pods-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM/Pods-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D477B0150CCEAA3CDE544B98 /* Pods_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +122,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C5DB48E9571DE6FFE2DD8E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				699A72A0EADC3454DB373196 /* Pods_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A25F41481EEE28D7004790B1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,8 @@
 				A25F416D1EEE28D7004790B1 /* MVVMTests */,
 				A25F41781EEE28D8004790B1 /* MVVMUITests */,
 				A25F41521EEE28D7004790B1 /* Products */,
+				D7FF0FC253C46B2FE28A0990 /* Pods */,
+				5C5DB48E9571DE6FFE2DD8E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +155,14 @@
 		A25F41531EEE28D7004790B1 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				A25F418B1EEE2977004790B1 /* Request */,
+				A25F41871EEE2909004790B1 /* Config */,
+				A25F41891EEE296B004790B1 /* Tools */,
+				A25F41881EEE295F004790B1 /* Model */,
+				A25F418A1EEE2971004790B1 /* ViewModel */,
+				A25F418C1EEE297C004790B1 /* ViewController */,
 				A25F41571EEE28D7004790B1 /* AppDelegate.h */,
 				A25F41581EEE28D7004790B1 /* AppDelegate.m */,
-				A25F415A1EEE28D7004790B1 /* ViewController.h */,
-				A25F415B1EEE28D7004790B1 /* ViewController.m */,
-				A25F415D1EEE28D7004790B1 /* Main.storyboard */,
 				A25F41601EEE28D7004790B1 /* Assets.xcassets */,
 				A25F41621EEE28D7004790B1 /* LaunchScreen.storyboard */,
 				A25F41651EEE28D7004790B1 /* Info.plist */,
@@ -140,6 +197,119 @@
 			path = MVVMUITests;
 			sourceTree = "<group>";
 		};
+		A25F41871EEE2909004790B1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A25F419A1EEE3633004790B1 /* PrefixHeader.pch */,
+				A25F419B1EEE364F004790B1 /* Config.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A25F41881EEE295F004790B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A25F41B61EEE5C8E004790B1 /* StudyModel.h */,
+				A25F41B71EEE5C8E004790B1 /* StudyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A25F41891EEE296B004790B1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A25F41A81EEE3BD9004790B1 /* GTMBase64 */,
+				A25F419C1EEE37C9004790B1 /* Tools.h */,
+				A25F419D1EEE37C9004790B1 /* Tools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A25F418A1EEE2971004790B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A25F41B91EEE5D48004790B1 /* StudyViewModel */,
+				A25F41BA1EEE5D54004790B1 /* BaseViewModel.h */,
+				A25F41BB1EEE5D54004790B1 /* BaseViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A25F418B1EEE2977004790B1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				A25F41A21EEE38C0004790B1 /* NetworkRequest.h */,
+				A25F41A31EEE38C0004790B1 /* NetworkRequest.m */,
+				A25F41A51EEE3ADE004790B1 /* SignTicketAndTimer.h */,
+				A25F41A61EEE3ADE004790B1 /* SignTicketAndTimer.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		A25F418C1EEE297C004790B1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A25F418D1EEE358D004790B1 /* Study */,
+				A25F41941EEE3604004790B1 /* BaseViewController.h */,
+				A25F41951EEE3604004790B1 /* BaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A25F418D1EEE358D004790B1 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				A25F418E1EEE359E004790B1 /* View */,
+				A25F41971EEE361D004790B1 /* StudyViewController.h */,
+				A25F41981EEE361D004790B1 /* StudyViewController.m */,
+				A25F41C01EEE5F48004790B1 /* StudyDetailViewController.h */,
+				A25F41C11EEE5F48004790B1 /* StudyDetailViewController.m */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		A25F418E1EEE359E004790B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A25F418F1EEE35E1004790B1 /* StudyTableViewCell.h */,
+				A25F41901EEE35E1004790B1 /* StudyTableViewCell.m */,
+				A25F41911EEE35E1004790B1 /* StudyTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A25F41A81EEE3BD9004790B1 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				A25F41A91EEE3BD9004790B1 /* GTMBase64.h */,
+				A25F41AA1EEE3BD9004790B1 /* GTMBase64.m */,
+				A25F41AB1EEE3BD9004790B1 /* GTMDefines.h */,
+				A25F41AC1EEE3BD9004790B1 /* NSData+AES.h */,
+				A25F41AD1EEE3BD9004790B1 /* NSData+AES.m */,
+				A25F41AE1EEE3BD9004790B1 /* SecurityUtil.h */,
+				A25F41AF1EEE3BD9004790B1 /* SecurityUtil.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		A25F41B91EEE5D48004790B1 /* StudyViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A25F41BD1EEE5D68004790B1 /* StudyViewModel.h */,
+				A25F41BE1EEE5D68004790B1 /* StudyViewModel.m */,
+			);
+			path = StudyViewModel;
+			sourceTree = "<group>";
+		};
+		D7FF0FC253C46B2FE28A0990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA33F04993791125A47030 /* Pods-MVVM.debug.xcconfig */,
+				5C771DA4DEB40E2C5DEF5896 /* Pods-MVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A25F417E1EEE28D8004790B1 /* Build configuration list for PBXNativeTarget "MVVM" */;
 			buildPhases = (
+				A0523056D691405D9A9BC19B /* [CP] Check Pods Manifest.lock */,
 				A25F414D1EEE28D7004790B1 /* Sources */,
 				A25F414E1EEE28D7004790B1 /* Frameworks */,
 				A25F414F1EEE28D7004790B1 /* Resources */,
+				5FBEDD2972188FD175D83ADD /* [CP] Embed Pods Frameworks */,
+				76BE684A8BF887C04C8E3C22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +380,7 @@
 				TargetAttributes = {
 					A25F41501EEE28D7004790B1 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					A25F41691EEE28D7004790B1 = {
 						CreatedOnToolsVersion = 8.1;
@@ -246,9 +419,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25F41931EEE35E1004790B1 /* StudyTableViewCell.xib in Resources */,
 				A25F41641EEE28D7004790B1 /* LaunchScreen.storyboard in Resources */,
 				A25F41611EEE28D7004790B1 /* Assets.xcassets in Resources */,
-				A25F415F1EEE28D7004790B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +441,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FBEDD2972188FD175D83ADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM/Pods-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76BE684A8BF887C04C8E3C22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM/Pods-MVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0523056D691405D9A9BC19B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A25F414D1EEE28D7004790B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A25F415C1EEE28D7004790B1 /* ViewController.m in Sources */,
+				A25F41B21EEE3BD9004790B1 /* SecurityUtil.m in Sources */,
+				A25F41B11EEE3BD9004790B1 /* NSData+AES.m in Sources */,
+				A25F41A71EEE3ADE004790B1 /* SignTicketAndTimer.m in Sources */,
+				A25F41991EEE361D004790B1 /* StudyViewController.m in Sources */,
+				A25F41BC1EEE5D54004790B1 /* BaseViewModel.m in Sources */,
+				A25F41C21EEE5F48004790B1 /* StudyDetailViewController.m in Sources */,
 				A25F41591EEE28D7004790B1 /* AppDelegate.m in Sources */,
+				A25F41961EEE3604004790B1 /* BaseViewController.m in Sources */,
+				A25F419E1EEE37C9004790B1 /* Tools.m in Sources */,
+				A25F41A41EEE38C0004790B1 /* NetworkRequest.m in Sources */,
+				A25F41B81EEE5C8E004790B1 /* StudyModel.m in Sources */,
 				A25F41561EEE28D7004790B1 /* main.m in Sources */,
+				A25F41B01EEE3BD9004790B1 /* GTMBase64.m in Sources */,
+				A25F41BF1EEE5D68004790B1 /* StudyViewModel.m in Sources */,
+				A25F41921EEE35E1004790B1 /* StudyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +544,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A25F415D1EEE28D7004790B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A25F415E1EEE28D7004790B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A25F41621EEE28D7004790B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,8 +647,11 @@
 		};
 		A25F417F1EEE28D8004790B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CA33F04993791125A47030 /* Pods-MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVM/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JingZhi.MVVM;
@@ -433,8 +661,11 @@
 		};
 		A25F41801EEE28D8004790B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C771DA4DEB40E2C5DEF5896 /* Pods-MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVM/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JingZhi.MVVM;
@@ -507,6 +738,7 @@
 				A25F41801EEE28D8004790B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A25F41811EEE28D8004790B1 /* Build configuration list for PBXNativeTarget "MVVMTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +747,7 @@
 				A25F41831EEE28D8004790B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A25F41841EEE28D8004790B1 /* Build configuration list for PBXNativeTarget "MVVMUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +756,7 @@
 				A25F41861EEE28D8004790B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
